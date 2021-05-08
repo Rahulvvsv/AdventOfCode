@@ -1,3 +1,4 @@
+
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -266,7 +267,7 @@ class Day3{
 
         }
         cout<<endl;
-        cout<<"visited array:     ";
+       // cout<<"visited array:     ";
         for(int i =0;i<original;i++){
           //  cout<<visited_array[i]<<"\t";
         }      
