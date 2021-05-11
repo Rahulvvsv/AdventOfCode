@@ -64,7 +64,7 @@ class Day6{
         //    int  * arr = find_biggest();
             int number = highest;
             int index = highest_index;
-            cout<<"number "<<number<<"index"<<index<<endl;
+          //  cout<<"number "<<number<<"index"<<index<<endl;
             array[index] = 0;
             for(int l =++index;number>0;l++){
               //  cout<<"index : "<<index<<endl;
