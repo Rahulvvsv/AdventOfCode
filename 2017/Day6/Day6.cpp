@@ -90,7 +90,7 @@ class Day6{
                 ss>>h;
                 stringify = stringify*10+ h;
             }
-          cout<<"sss : "<<stringify<<endl;
+        //  cout<<"sss : "<<stringify<<endl;
             umap[stringify] += 1 ; 
             
           
@@ -101,7 +101,7 @@ class Day6{
             final_count = count;
             num_part2 = stringify;
             time--;
-            cout<<"time "<<time<<"finalcount " <<final_count<<endl;
+            //cout<<"time "<<time<<"finalcount " <<final_count<<endl;
         }
         if(final_count){
             count_2++;
